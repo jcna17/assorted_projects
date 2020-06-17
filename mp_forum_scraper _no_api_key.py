@@ -112,6 +112,11 @@ def repeat(duration, frequency):
     for i in range(duration):
         send_to_phone()
         time.sleep(frequency * 60)
+
+#runs the program every 5 minutes for 8 hours
+duration = 96
+frequency = 5
+repeat(duration, frequency)
         
 
         
