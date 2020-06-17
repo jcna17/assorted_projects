@@ -113,8 +113,7 @@ def repeat(duration, frequency):
         send_to_phone()
         time.sleep(frequency * 60)
         
-repeat(12, 5)
-        
+
         
         
   
